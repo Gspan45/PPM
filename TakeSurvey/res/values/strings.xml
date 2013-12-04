@@ -8,6 +8,11 @@
     <string name="string_user_confirm">Confirm</string>
     <string name="error_name_missing">Please enter your name!</string>
     <string name="error_ok">OK</string>
-	<string name="hi_user">Hi User %s!</string>
-	<string name="hello_greeting">Hello %s!</string>
+    <string name="hi_user">Hi User %s!</string>
+    <!-- hi greeting -->
+    <string name="hello_greeting">Hello %s!</string>
+    <string name="title_activity_load_survey">LoadSurvey</string>
+    <string name="title_activity_tmain">TMainActivity</string>
+    
+
 </resources>
