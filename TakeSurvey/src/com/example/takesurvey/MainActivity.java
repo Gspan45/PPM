@@ -1,4 +1,5 @@
 package com.example.takesurvey;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -6,8 +7,6 @@ import android.content.Intent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.TextView;
-import android.widget.Toast;
 
 
 public class MainActivity extends Activity implements OnClickListener {
@@ -26,10 +25,12 @@ public class MainActivity extends Activity implements OnClickListener {
 						@Override
 						public void onClick(View v) {
 							// TODO Auto-generated method stub
-							Intent i = new Intent(MainActivity.this, LoadSurveyActivity.class);
-							i.putExtra("user","R.string.enter_your_name");
-							startActivity(i);
-							
+							// Intent i = new Intent(MainActivity.this, LoadSurveyActivity.class);
+							//i.putExtra("user","R.string.enter_your_name");
+							// startActivity(i);
+
+							Intent i = new Intent(this, LoadSurveyActivity.class);
+							startActivity(i); 
 							
 						}
 					}

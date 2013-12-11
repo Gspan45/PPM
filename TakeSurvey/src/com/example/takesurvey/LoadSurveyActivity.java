@@ -1,6 +1,5 @@
 package com.example.takesurvey;
 
-import com.example.takesurvey.R.id;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -11,22 +10,25 @@ import android.widget.TextView;
 public class LoadSurveyActivity extends Activity {
 	
 	
-	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.load_survey);
 		
-		Bundle extras = getIntent().getExtras();
+		
+		/*Bundle extras = getIntent().getExtras();
 		if( extras == null ){
 			return;
 			
 		}
-
-		String name = extras.getString(Intent.EXTRA_TEXT);
+*/
+		//String name = extras.getString(Intent.EXTRA_TEXT);
 		
 		TextView greetingField = (TextView) findViewById(R.id.greeting_field);
-	    greetingField.setText(name);
+	    greetingField.setText("hallo");
+	   
+	    
+	    finish();
 	}
 
 	@Override
