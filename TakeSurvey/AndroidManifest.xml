@@ -6,9 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="19" />
-
-    <supports-screens android:anyDensity="true" />
+        android:targetSdkVersion="18" />
 
     <application
         android:allowBackup="true"
@@ -25,8 +23,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.takesurvey.LoadSurveyActivity"
-            android:label="@string/title_activity_load_survey" >
+            android:name="com.example.takesurvey.SecondActivity"
+            android:label="@string/title_activity_second" >
         </activity>
     </application>
 
